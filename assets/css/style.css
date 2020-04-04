@@ -1,0 +1,169 @@
+/*--------------------------------------------Colour*/
+
+/*---Rose Gold: #bd8c7d
+Soft Gold: #d1bfa7
+Silver: #8e8e90
+Onyx: #49494b
+*/
+
+.bg-color-name-title {
+    background-color: #fafafa;
+}
+.kontakt {
+    background-color: #bd8c7d;
+}
+.oppettider {
+    background-color: #d1bfa7;
+}
+.bokatid-button {
+    background-color: #8e8e90;
+}
+.social-networks {
+    background-color: #49494b;
+}
+
+/*-----------Montserrat----Lora---------------------------------Fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Lora|Montserrat:100,200,300,400,500,600,700');
+
+/*--------------------------------------------Header*/
+header {
+    margin: 0;
+}
+
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url("../images/logo.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 25%;
+    margin: 0;
+    padding: 0;
+    width: 27;
+    min-height: 65px;
+    transition-delay: all .5s ease-in-out;
+    -moz- transition-delay: all .5s ease-in-out;
+    -webkit- transition-delay: all .5s ease-in-out;
+}
+.name {
+    font-family: 'Lora', sans-serif;
+    background-color: #fafafa;
+    color: pink;
+    margin-top: 10px;
+    text-align: center;
+}
+.nav-item {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    font-size: 45px;
+    margin-top: 10px;
+    padding: 0 20 20 0;
+    color: #49494B;
+    background-color: #fafafa;
+}
+.list-inline {
+    color: #49494B;
+    display: inline-block;
+}
+
+.social-icons-header {
+    position: right;
+    margin: right;
+    display: inline-block;
+    color: #49494B;
+}
+
+#nav li {
+    font-size: 15px;
+    display: inline-block;
+    position: fixed;
+}
+
+/*--------------------------------------------Start Part 1*/
+
+.title-image {
+background-image: url("../images/title-image.jpg");            
+margin: 0;
+padding: 0;
+height: 100px;
+background-repeat: no-repeat;
+background-size: cover;
+height: 600px;
+padding: 20px 0 0 20px;
+}
+
+.introduction {
+margin: 10px;
+font-family: "Montserrat", sans-serif;
+
+}
+
+/*--------------------------------------------Start Part 2*/
+
+.kontakt-picture{
+background-repeat: no-repeat;
+background-position: left;
+vertical-align: top;
+display: inline;
+text-align: center;
+}
+.prislista-picture{
+display: inline;
+background-repeat: no-repeat;
+background-position: right;
+}
+/*--img {
+    width: auto;
+    height: 100px;
+    background-color: grey;*/
+.caption {
+    display: block;
+}
+
+/*--------------------------------------------Footer*/
+#tider {
+background-repeat: no-repeat; background-size: cover;
+background-position: center;
+overflow: hidden;
+font-family: "Lora", sans-serif;
+}
+
+#tider div{
+  color: #fafafa;
+  width: 25%;
+  height: 200px;
+  float: left;
+  padding: 15px 0 0 15px;
+  text-align: center;
+  margin: 2px;
+  font-family: "Lora", sans-serif;
+
+}
+
+footer{
+  height: 150px;
+}
+.social-networks {
+  text-align: center;
+  height: 200px;
+  padding: 30px 0 0 10px;
+  margin: 2px;
+  color: #fafafa;
+}
+.social-networks li {
+  display: inline;
+}
+.social-networks i {
+  font-size: 160%;
+  margin: 2%;
+  padding: 5%;
+  color: #fafafa;
+  position: center;
+}
+.bokatid-button {
+    position: center;
+    color: #fafafa;
+}
