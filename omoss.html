@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@200&display=swap" rel="stylesheet">        
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Om oss</title>
+</head>
+<body>
+
+<header>
+
+</header>
+
+<section>
+<div class="portrait">
+    <div>
+        <img src="mia.jpg" alt="Mia Helen">
+        <h3>Mia Helen</h3>
+        <p>Startade Amazon 1985</p>
+        <p>Medicinsk fotterapeut</p>
+        <p>Naturkosmetisk hudterapeut</p>
+    </div>
+    <div>
+        <img src="karin.jpg" alt="Karin Lundström">
+        <h3>Karin Lundström</h3>
+        <p>Medicinsk fotterapeut</p>
+    </div>
+    <div>
+        <img src="annette.jpg" alt="Anette Törnros">
+        <h3>Anette Törnros</h3>
+        <p>Medicinsk fotterapeut</p>
+    </div>
+</div>
+</section>
+
+<section>
+<div id="googleMap"></div>
+
+<script>
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(51.508742,-0.120850),
+  zoom:5,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+</script>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCzBxiDHH2h8EX4T_BnjwTnXIO4CBHuZiI
+&callback=myMap"></script>
+</section>
+
+
+<footer>
+        <section id="tider">
+            <div class="row">
+                <div class="kontakt col-3">
+                    <h3>Kontakt <i class="fas fa-map-marker-alt"></i> </h3>
+                    <h6>Timmermansgatan 37</h6>
+                    <h6>118 55 Stockholm</h6>
+                    <h6>Tel nr: 08-6437149</h6>
+                    <h6>E-post: fotohud.se@live.se</h6>
+                </div>
+                <div class="oppettider col-3">
+                    <h3>Öppettider <i class="far fa-clock"></i></h3>
+                    <h6>Mån: 9-18</h6>
+                    <h6>Tis: 9-18</h6>
+                    <h6>Ons: 9-18</h6>
+                    <h6>Tors: 9-18</h6>
+                    <h6>Fred: 9-17</h6>
+                </div>
+                <div class="bokatid-button col-3">
+                    <button type="button" class="btn btn-outline-dark">Boka tid <i class="far fa-bookmark"></i></button>
+                    <p>För ansikts & fotvårdsbehandlingar online, övriga tider bokas via telefon. <i>Avbokas ej tiden senast 24 timmar innan debiteras besöket till fullpris.</i></p>
+                </div>
+                <div class="social-networks col-3">
+                    <ul>
+                        <a href="https://www.facebook.com/pg/amazonsthlm/" target="_blank"> <i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/amazonfotohudvard/?hl=sv" target="_blank"> <i class="fab fa-instagram"></i> </a>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>

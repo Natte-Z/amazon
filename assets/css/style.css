@@ -24,7 +24,7 @@ Onyx: #49494b
 
 /*-----------Montserrat----Lora---------------------------------Fonts*/
 
-@import url('https://fonts.googleapis.com/css?family=Lora|Montserrat:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@200&display=swap');
 
 /*--------------------------------------------Header*/
 header {
@@ -48,10 +48,9 @@ header {
     -moz- transition-delay: all .5s ease-in-out;
     -webkit- transition-delay: all .5s ease-in-out;
 }
-.name {
+.title {
     font-family: 'Lora', sans-serif;
-    background-color: #fafafa;
-    color: pink;
+    color: #49494B;
     margin-top: 10px;
     text-align: center;
 }
@@ -114,6 +113,7 @@ text-align: center;
 display: inline;
 background-repeat: no-repeat;
 background-position: right;
+text-align: center;
 }
 /*--img {
     width: auto;
@@ -121,6 +121,39 @@ background-position: right;
     background-color: grey;*/
 .caption {
     display: block;
+}
+
+/*--------------------------------------------Behandlingar*/
+#behandlingar {
+    width: 50%;
+    color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+}
+#behandlingar h1 {
+    font-family: "lora", sans-serif;
+    color: #49494b;
+}
+.fotvard {
+    background-color: #BD8C7D;
+    width: 100%;
+    
+}
+
+.fargning {
+    background-color: #D1BFA7;
+    position: right;
+    text-align: right;
+}
+.ansikt {
+    background-color: #908C8C;
+}
+
+
+/*--------------------------------------------omoss---map*/
+
+#googleMap {
+    width:100%;
+    height:400px;
 }
 
 /*--------------------------------------------Footer*/
@@ -133,14 +166,10 @@ font-family: "Lora", sans-serif;
 
 #tider div{
   color: #fafafa;
-  width: 25%;
   height: 200px;
-  float: left;
   padding: 15px 0 0 15px;
   text-align: center;
-  margin: 2px;
   font-family: "Lora", sans-serif;
-
 }
 
 footer{
@@ -150,7 +179,6 @@ footer{
   text-align: center;
   height: 200px;
   padding: 30px 0 0 10px;
-  margin: 2px;
   color: #fafafa;
 }
 .social-networks li {
@@ -158,12 +186,13 @@ footer{
 }
 .social-networks i {
   font-size: 160%;
-  margin: 2%;
-  padding: 5%;
+  padding: 30px 0 0 10px;
   color: #fafafa;
   position: center;
 }
 .bokatid-button {
     position: center;
     color: #fafafa;
+    text-align: center;
+    padding-top: 10px;
 }
