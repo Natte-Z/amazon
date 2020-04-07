@@ -11,12 +11,11 @@ Onyx: #49494b
 }
 .header {
     background-color: #fafafa;
-
 }
 .kontakt {
     background-color: #bd8c7d;
 }
-.oppettider {
+.openingtimes {
     background-color: #d1bfa7;
 }
 .bokatid {
@@ -66,9 +65,10 @@ header {
     color: #49494B;
     background-color: #fafafa;
 }
-.nav-item:first-child {
-    margin-left: 540px;
+.navbar-nav{
+    margin: auto;
 }
+
 .socialIconsHeader {
     height: 25x;
     padding-right: 20px;
@@ -82,14 +82,19 @@ header {
 .socialIconsHeader :hover {
   color: #49494B;
 }
-/*--------------------------------------------Start Part 1*/
-
-.introduction {
-    margin: 30px;
-    font-family: "Montserrat", sans-serif;
+/*--------------------------------------------StartPage*/
+.carouselExampleIndicators {
+    padding-top: 0px;
 }
 
-/*--------------------------------------------Start Part 2*/
+.introduction {
+    margin: 30px auto;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 200px;
+    text-align: center;
+}
+
+
 .startImageHolder{
     height: auto;
     padding: 80px;
@@ -100,7 +105,7 @@ header {
     width: 70%;
     margin: auto;
 }
-.kontakt-picture{
+.kontaktPicture{
     background-repeat: no-repeat;
     background-position: left;
     vertical-align: top;
@@ -108,7 +113,7 @@ header {
     height: 100%;
     width: 100%;
 }
-.prislista-picture{
+.prislistaPicture{
     background-repeat: no-repeat;
     background-position: right;
     height: 100%;
@@ -121,54 +126,207 @@ header {
     text-align: center;
     font-size: 20px;
 }
+.hrStart {
+    width: 700px;
+    margin-left: 350px;
+    padding: 0;
+
+}
 
 /*--------------------------------------------TreatmentsPage*/
+
 #behandlingar {
-    width: 50%;
+    width: auto;
     color: #fafafa;
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 #behandlingar h1 {
     font-family: "lora", sans-serif;
     color: #49494b;
 }
+/*--------------------------------------------Rosa Part*/
+
+
 .foot {
     background-color: #BD8C7D;
     width: 100%;
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    color: #49494b;
+    letter-spacing: 1px;
+
 }
 .naglar {
-    background-image: src="(../assets/images/naglar.jpg)";
+    height: auto;
+}
+.naglarImage{
+    background-repeat: no-repeat;
+    background-position: right;
+    vertical-align: top;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+
+}
+/*--------------------------------------------Sand Part*/
+
+.coloringHolder{
+    display: flex;
+    flex-direction: row-reverse;
 }
 .coloring {
     background-color: #D1BFA7;
-    position: right;
     text-align: right;
+    width: 100%;
+    text-align: center;
+
 }
+.coloringFlower {
+    height: auto;
+    
+}
+.coloringFlowerImage{
+    background-repeat: no-repeat;
+    background-position: left;
+    vertical-align: top;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    float: left;
+}
+/*--------------------------------------------Grey Part*/
+
+
 .facial {
     background-color: #908C8C;
+    width: 100%;
+    text-align: center;
+
 }
-/*--------------------------------------------Carousel-Treatments*/
+.facialAmazon{
+    height: auto;
+}
+.facialAmazonImage{
+    background-repeat: no-repeat;
+    background-position: right;
+    vertical-align: top;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    padding-top: 40px;
+}
+
+.hrTreatments{
+    width: 80%;
+    margin-top: 50px;
+}
+/*----------------------------------Carousel-Treatments*/
 
 .carousel-inner {
-    padding:100px 0 100px 0;
+    padding:0px 0 100px 0;
 }
 
 
-/*--------------------------------------------About us---map*/
+/*--------------------------------------------AboutUsPage*/
+/*--------------------------------------------PictureRow*/
 
-#googleMap {
+.portraitPictureHolder{
+    height: auto;
+    padding: 80px;
+}
+
+.portraitPicture {
+    height: 250px;
+    width: 70%;
+    margin-left: 200px;
+}
+.portraitPictureOne {
+    background-repeat: no-repeat;
+    background-position: left;
+    vertical-align: top;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    
+}
+.portraitPictureTwo{
+    background-repeat: no-repeat;
+    background-position: center;
+    vertical-align: top;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.portraitPictureThree{
+    background-repeat: no-repeat;
+    background-position: right;
+    vertical-align: top;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+/*--------------------------------------------CaptionRow*/
+
+.portrait {
+    height: 40px;
+    text-align: center;
+    color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+    width: auto;
+    padding-bottom: 100px;
+}
+.portrait:first-child{
+    margin-left: 250px; 
+}
+.portraitCaptionOne {
+    background-color: #908C8C;
+    height: 100%;
+    }
+.portraitCaptionTwo {
+    background-color: #908C8C;
+    height: 100%;
+}
+.portraitCaptionThree {
+    background-color: #908C8C;
+    height: 100%;
+}
+
+.portrait h3 {
+    color: #49494b;
+    font-family: 'Lora', sans-serif;
+}
+.hrPortrait{
+    width: 80%;
+    margin-top: 200px;
+}
+/*--------------------------------------------Map*/
+
+
+#map {
     width:100%;
-    height:400px;
+    height:300px;
+    margin: 100px 0 100px 0;  
+    }
+
+/*--------------------------------------------MediaPage*/
+
+.youtube {
+margin-left: 300px;
+padding: 50px;
+
 }
 
 /*--------------------------------------------Footer*/
 #tider {
     overflow: hidden;
     font-family: "Lora", sans-serif;
-    position: absolute;
+    text-shadow: 1px 1px 1px #49494b;
+    flex-shrink: 0;
     color: #fafafa;
     text-align: center;
-    font-size: 15px;
+    font-size: 20px;
     width: 100%;
     }
 #tider h6{
@@ -178,37 +336,31 @@ header {
     padding: 20px 10px 10px 10px;
     border: 10px;
     border-color: #fafafa;
-    height: 150px;
 }
-.oppettider {
+.openingtimes {
     padding: 20px 10px 10px 10px;
     height: 150px;
 }
-.bokatid{
-    position: center;
-    color: #fafafa;
-    text-align: center;
-    padding: 40px 10px 10px 10px;
-    height: 150px;
-}
+
 .bokatidButton {
     transition-duration: 0.4s;
     border-radius: 50px;
     font-size: 15px;
+    display: flex;
+    
 }
 .bokatidButton:hover {
   background-color: #49494b;
   color: #fafafa;
 }
-.bokatid h6{
-    padding-top: 10px;
-}
+
 .socialIconsFooter {
     padding: 35px 0 10px 0;
     height: 150px;
 }
 .socialIconsFooter i {
   text-align: center;
+    text-shadow: 1px 1px 1px #49494b;
   color: #fafafa;
   width: 50px;
   font-size: 35px;

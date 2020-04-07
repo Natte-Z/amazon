@@ -8,12 +8,12 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@200&display=swap" rel="stylesheet">   
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.4.0/dist/leaflet.css" type="text/css">     
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
-    <title>Om oss</title>
+    <title>Media</title>
 </head>
 <body>
+    
 <header class="header">
         <div class="row no-gutters">
             <a href="index.html" class="col-12 logo">
@@ -32,7 +32,7 @@
                 <div class="collapse navbar-collapse" id="navbarText">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link" href="index.html">START</a>
+                            <a class="nav-link" href="index.html">START<span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="https://boka.alpacha.se/?site_guid=d714199b-362d-11e3-9ad4-d270ae161edb" target="_blank">BOKA TID</a>
@@ -41,7 +41,7 @@
                             <a class="nav-link" href="behandlingar.html">BEHANDLINGAR</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="omoss.html">OM OSS <span class="sr-only">(current)</span></a>
+                            <a class="nav-link" href="omoss.html">OM OSS</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link" href="media.html">MEDIA</a>
@@ -58,54 +58,19 @@
         </div>
     </header>
 
-<section>
-<div id="container">
-    <div class="portraitPictureHolder row">
-        <div class="col-3">
-            <div class="portraitPicture">
-                <img class="portraitPictureOne" src="../assets/images/mia.jpg" alt="Mia Helen">
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="portraitPicture">
-                <img class="portraitPictureTwo" src="../assets/images/karin.jpg" alt="Karin Lundström">
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="portraitPicture">
-                <img class="portraitPictureThree" src="../assets/images/annette.jpg" alt="Anette Törnros">
-            </div>
-        </div>
+    <section>
+    <div class="youtube">
+        <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/JLJqUipWRWk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+        </iframe>
     </div>
-</div>  
+    </section>
 
-<div id="portraitPicture container">
-    <div class="portrait row">
-        <div class="col-3">
-            <div class="portraitCaptionOne">
-                <h3>Mia Helen</h3>
-                <p>Startade Amazon 1985</p>
-                <p>Medicinsk fotterapeut</p>
-                <p>Naturkosmetisk hudterapeut</p>
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="portraitCaptionTwo">
-                <h3>Karin Lundström</h3>
-                <p>Medicinsk fotterapeut</p>
-            </div>
-        </div>
-        <div class="col-3">
-            <div class="portraitCaptionThree">
-                <h3>Anette Törnros</h3>
-                <p>Medicinsk fotterapeut</p>
-            </div>
-        </div>
+    <section>
+    <div>
+    
     </div>
-</div>
-<hr class="hrPortrait">
-</section>
-<div id="map"></div>
+    </section>
 
 <footer>
         <section id="tider">
@@ -139,24 +104,5 @@
             </div>
         </section>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-<script src="https://unpkg.com/leaflet@1.4.0/dist/leaflet.js"></script>
-
-<script>
-    var mapTileLayers = L.tileLayer("http://services.arcgisonline.com/arcgis/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}", {
-        attribution: "Powered by <a href='https://developers.arcgis.com/terms/attribution/' target='_blank' rel='noopener'>Esri</a>"
-    });
-
-    var map = L.map("map", {
-        layers: [mapTileLayers],
-        center: [59.314958, 18.061922],
-        zoom: 12
-    });
-    var myMarker = L.marker([59.314958, 18.061922]).addTo(map);
-</script>
-
 </body>
 </html>
