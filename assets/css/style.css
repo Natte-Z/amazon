@@ -74,15 +74,15 @@ header {
     padding-right: 20px;
 }
 .socialIconsHeader i {
-  text-align: center;
-  width: 30px;
-  font-size: 20px;
-  color: #bd8c7d;
+    text-align: center;
+    width: 30px;
+    font-size: 20px;
+    color: #49494B;
 }
 .socialIconsHeader :hover {
-  color: #49494B;
+    color: #bd8c7d;
 }
-/*--------------------------------------------StartPage*/
+/*---------------------------------------------------------------------------StartPage*/
 .carouselExampleIndicators {
     padding-top: 0px;
 }
@@ -133,7 +133,7 @@ header {
 
 }
 
-/*--------------------------------------------TreatmentsPage*/
+/*--------------------------------------------------------------------------TreatmentsPage*/
 
 #behandlingar {
     width: auto;
@@ -146,27 +146,26 @@ header {
     color: #49494b;
 }
 /*--------------------------------------------Rosa Part*/
-
+.footerHolder {
+    padding-top: 60px;
+}
 
 .foot {
     background-color: #BD8C7D;
     width: 100%;
     height: auto;
-    padding: 30px;
     text-align: center;
     color: #49494b;
     letter-spacing: 1px;
 
 }
-.naglar {
-    height: auto;
-}
-.naglarImage{
-    background-repeat: no-repeat;
-    background-position: right;
-    vertical-align: top;
-    text-align: center;
+.nails {
     height: 100%;
+    margin: auto;
+    width: 100%;
+}
+.nailsImage{
+    height: 408px;
     width: 100%;
 
 }
@@ -175,6 +174,8 @@ header {
 .coloringHolder{
     display: flex;
     flex-direction: row-reverse;
+    padding-top: 60px;
+
 }
 .coloring {
     background-color: #D1BFA7;
@@ -184,21 +185,19 @@ header {
 
 }
 .coloringFlower {
-    height: auto;
+    height: 100%;
+    margin: auto;
+    width: 100%;
     
 }
 .coloringFlowerImage{
-    background-repeat: no-repeat;
-    background-position: left;
-    vertical-align: top;
-    text-align: center;
-    height: 100%;
+    height: 400px;
     width: 100%;
-    float: left;
 }
 /*--------------------------------------------Grey Part*/
-
-
+.facialHolder{
+    padding-top: 60px;
+}
 .facial {
     background-color: #908C8C;
     width: 100%;
@@ -206,41 +205,40 @@ header {
 
 }
 .facialAmazon{
-    height: auto;
+    height: 100%;
+    margin: auto;
+    width: 100%;
 }
 .facialAmazonImage{
-    background-repeat: no-repeat;
-    background-position: right;
-    vertical-align: top;
-    text-align: center;
-    height: auto;
+    height: 432px;
     width: 100%;
-    padding-top: 40px;
-}
 
 .hrTreatments{
     width: 80%;
-    margin-top: 50px;
+    padding-top: 60px;
 }
-/*----------------------------------Carousel-Treatments*/
+/*----------------------------------Carousel-Treatments
 
-.carousel-inner {
-    padding:0px 0 100px 0;
+
+.treatmentimages {
+    height: 100%;
+    width: 100%;
 }
+*/
 
-
-/*--------------------------------------------AboutUsPage*/
+/*---------------------------------------------------------------------AboutUsPage*/
 /*--------------------------------------------PictureRow*/
 
 .portraitPictureHolder{
-    height: auto;
+    height: 100%;
     padding: 80px;
+    background-color: #908C8C;
+    display: flex;
+    justify-content: space-between;
 }
-
 .portraitPicture {
-    height: 250px;
-    width: 70%;
-    margin-left: 200px;
+    height: 300px;
+    width: 90%;
 }
 .portraitPictureOne {
     background-repeat: no-repeat;
@@ -249,7 +247,7 @@ header {
     text-align: center;
     height: 100%;
     width: 100%;
-    
+    border-radius: 8px;
 }
 .portraitPictureTwo{
     background-repeat: no-repeat;
@@ -258,6 +256,7 @@ header {
     text-align: center;
     height: 100%;
     width: 100%;
+    border-radius: 8px;
 }
 .portraitPictureThree{
     background-repeat: no-repeat;
@@ -266,40 +265,20 @@ header {
     text-align: center;
     height: 100%;
     width: 100%;
+    border-radius: 8px;
 }
 /*--------------------------------------------CaptionRow*/
-
-.portrait {
-    height: 40px;
-    text-align: center;
-    color: #fafafa;
+.portraitCaption {
     font-family: 'Montserrat', sans-serif;
-    width: auto;
-    padding-bottom: 100px;
+    text-align: center;
+    font-weight: 100px;
 }
-.portrait:first-child{
-    margin-left: 250px; 
-}
-.portraitCaptionOne {
-    background-color: #908C8C;
-    height: 100%;
-    }
-.portraitCaptionTwo {
-    background-color: #908C8C;
-    height: 100%;
-}
-.portraitCaptionThree {
-    background-color: #908C8C;
-    height: 100%;
-}
-
-.portrait h3 {
-    color: #49494b;
+.portraitCaption h3 {
     font-family: 'Lora', sans-serif;
 }
 .hrPortrait{
     width: 80%;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 /*--------------------------------------------Map*/
 
@@ -313,8 +292,8 @@ header {
 /*--------------------------------------------MediaPage*/
 
 .youtube {
-margin-left: 300px;
-padding: 50px;
+    margin-left: 300px;
+    padding: 50px;
 
 }
 
@@ -347,26 +326,29 @@ padding: 50px;
     border-radius: 50px;
     font-size: 15px;
     display: flex;
-    
+    margin-top: 45px;
+    padding: 17px;
+    background-color: #49494b;
+    color: #fafafa;
 }
 .bokatidButton:hover {
-  background-color: #49494b;
-  color: #fafafa;
+    background-color: #bd8c7d;
+    color: #49494b;
 }
 
 .socialIconsFooter {
-    padding: 35px 0 10px 0;
+    padding: 45px;
     height: 150px;
 }
 .socialIconsFooter i {
-  text-align: center;
+    text-align: center;
     text-shadow: 1px 1px 1px #49494b;
-  color: #fafafa;
-  width: 50px;
-  font-size: 35px;
+    color: #fafafa;
+    width: 50px;
+    font-size: 35px;
 }
 .socialIconsFooter:hover {
-  background-color: #49494b;
-  color: #fafafa;
+    background-color: #49494b;
+    color: #bd8c7d;
 }
 
