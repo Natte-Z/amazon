@@ -1,11 +1,12 @@
+/* TEST */
+
+.wrapper-img {
+    width: 100%;
+    padding-top: 100%;
+    z-index: 1;
+
+}
 /*--------------------------------------------Colour*/
-
-/*---Rose Gold: #bd8c7d
-Soft Gold: #d1bfa7
-Silver: #8e8e90
-Onyx: #49494b
-*/
-
 .bg-color-name-title {
     background-color: #fafafa;
 }
@@ -25,7 +26,7 @@ Onyx: #49494b
     background-color: #49494b;
 }
 
-/*-----------Montserrat----Lora---------------------------------Fonts*/
+/*---------------------------------------------------------------------Fonts*/
 
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@200&display=swap');
 
@@ -42,9 +43,6 @@ header {
     padding: 0;
     width: 27px;
     min-height: 65px;
-    transition-delay: all .5s ease-in-out;
-    -moz- transition-delay: all .5s ease-in-out;
-    -webkit- transition-delay: all .5s ease-in-out;
     background-color: #fafafa;
 }
 .title {
@@ -70,7 +68,7 @@ header {
 }
 
 .socialIconsHeader {
-    height: 25x;
+    height: 25px;
     padding-right: 20px;
 }
 .socialIconsHeader i {
@@ -89,7 +87,6 @@ header {
 .introduction {
     margin: 30px auto;
     font-family: "Montserrat", sans-serif;
-    font-weight: 200px;
     text-align: center;
 }
 .startImageHolder{
@@ -105,7 +102,7 @@ header {
     margin-bottom: 40px;
 
 }
-.kontaktPicture{
+.contactPicture{
     background-image: url("../images/kontakt.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
@@ -153,7 +150,7 @@ header {
     color: #49494b;
     font-weight: bold;
 }
-/*--------------------------------------------Rosa Part*/
+/*--------------------------------------------Feet Rosa Part*/
 .footHolder {
     padding-top: 60px;
 }
@@ -166,7 +163,7 @@ header {
     letter-spacing: 1px;
 }
 .nails {
-    height: 454px;
+    height: inherit;
     width: 100px;
     background-color: #BD8C7D;
 }
@@ -176,8 +173,9 @@ header {
     background-repeat: no-repeat;
     height: 100%;
     background-color: #49494b;
+    background-position: center;
 }
-/*--------------------------------------------Sand Part*/
+/*--------------------------------------------Coloring Sand Part*/
 .coloringHolder{
     display: flex;
     flex-direction: row-reverse;
@@ -190,7 +188,7 @@ header {
     color: #49494b;
 }
 .coloringFlower {
-    height: 474px;
+    height: inherit;
     background-color: #D1BFA7;
     width: 100px; 
 }
@@ -200,8 +198,10 @@ header {
     background-repeat: no-repeat;
     height: 100%;
     background-color: #49494b;
+    background-position: center;
+
 }
-/*--------------------------------------------Grey Part*/
+/*--------------------------------------------Facial Grey Part*/
 .facialHolder{
     padding-top: 60px;
 }
@@ -213,9 +213,10 @@ header {
 
 }
 .facialAmazon{
-    height: 478px;
+    height: inherit;
     background-color: #908C8C;
     width: 100px; 
+    
 }
 .facialAmazonImage{
     background-image: url("../images/facialamazon.jpg");
@@ -223,6 +224,7 @@ header {
     background-repeat: no-repeat;
     height: 100%;
     background-color: #49494b;
+    background-position: center;
 }
 .hrfacial {
     width: 80%;
@@ -272,7 +274,7 @@ header {
     background-image: url("../images/mia.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
-    height: 100%;
+    height: inherit;
     background-color: #49494b;
 
 }
@@ -286,13 +288,13 @@ header {
     background-image: url("../images/karin.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
-    height: 100%;
+    height: inherit;
     background-color: #49494b;
 
 }
 .portraitPictureThree{
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
     vertical-align: top;
     text-align: center;
     width: 100%;
@@ -300,14 +302,13 @@ header {
     background-image: url("../images/annette.jpg");
     background-size: cover; 
     background-repeat: no-repeat;
-    height: 100%;
+    height: inherit;
     background-color: #49494b;
 }
 /*--------------------------------------------CaptionRow*/
 .portraitCaption {
     font-family: 'Montserrat', sans-serif;
     text-align: center;
-    font-weight: 100px;
 }
 .portraitCaption h3 {
     font-family: 'Lora', sans-serif;
@@ -334,13 +335,24 @@ header {
     line-height: 0;
     column-count: 3;
     column-gap: 0px;
+    height: 100%;
+    width: 100%;
+    
 }
 #photo img {
     width: 100%;
+    height: inherit;
 }
+@media screen and (max-width: 768px){
+    #photo{
+        column-count: 2;
+    }
+
 
 .youtube {
     padding: 50px;
+    height: 450px;
+    
 }
 .youtubeiframe {
     width: 100%;
@@ -353,17 +365,14 @@ header {
     align-items: center;
     margin: 100px;
 }
-@media screen and (max-width: 768px){
-    #photo{
-        column-count: 2;
-    }
+
 }
 
 
 
 /*--------------------------------------------Footer*/
 .footer {
-    overflow: hidden;
+    overflow: hidden;
     font-family: "Lora", sans-serif;
     text-shadow: 1px 1px 1px #49494b;
     flex-shrink: 0;
