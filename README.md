@@ -7,7 +7,7 @@ Repository on [GitHub]
 
 ## UX
 
-![Responsive Views of Home Page] (/images/Responsive.png)
+[Responsive Views of Home Page] (https://github.com/Natte-Z/amazon/blob/ea1d50af645b4124b073ad029948c763ae888d63/assets/images/Responsive.png)
 
 ### Users 
 Expected users of the website include customers, people that are looking for a new foot specialist and that are just looking for some relaxation in their life. 
@@ -96,7 +96,7 @@ Features planned, implemented and outlined for later development
     - **Git** used for Version Control
 - [GitHub](https://github.com/)
     - Repository hosted on **GitHub**
-- [Github Pages](URL) <!------------------------------------------------->
+- [Github Pages](https://natte-z.github.io/amazon/index.html) 
     - Website hosted on **Github Pages**
 - [Jigsaw] https://jigsaw.w3.org/css-validator/validator
     - CSS testing completed with **Jigsaw**
