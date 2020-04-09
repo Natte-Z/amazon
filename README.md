@@ -3,7 +3,7 @@ A data repository for displaying the new website of amazon fotvård.
 The new webpage will include a description about the company itself, pictures of the salong and the different treatments and booking options as well as a media section to display the salong from its best side and introduce all products used. 
 
 Hosted on [GitHub Pages](https://natte-z.github.io/amazon/index.html)
-Repository on [GitHub] 
+Repository on [GitHub] (https://github.com/Natte-Z/amazon)
 
 ## UX
 
