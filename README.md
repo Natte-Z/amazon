@@ -98,8 +98,6 @@ Features planned, implemented and outlined for later development
     - Repository hosted on **GitHub**
 - [Github Pages](URL) <!------------------------------------------------->
     - Website hosted on **Github Pages**
-- [FreeFormatter](https://www.freeformatter.com/html-validator.html)
-    - HTML testing completed with **FreeFormatter**
 - [Jigsaw] https://jigsaw.w3.org/css-validator/validator
     - CSS testing completed with **Jigsaw**
 
@@ -113,14 +111,11 @@ The site was tested through a number of means.
 ### Jigsaw Testing (CSS)
 Jigsaw was used for validating the CSS code. It is a website were users can paste their CSS code to check for error. 
 
-### FreeFormatter (HTML)
-FreeFormatter was used for validating the HTML code. It is a website were users can paste their HTML code to check for error. 
-
 ### Testing on different browsers and devices.
 This was used for testing the websites functionality on different browsers such as Google Chrome, Safari and Moziffal Firefox. In addition to testing the website on different browsers the same was tested on different devices, e.g. smartphones (iPhone 8, Samsung Galaxy) and a tablet. 
 
 ### Mono-Testing
-Two test users were chosen that used the website and gave comments about the UX 
+Two test users were chosen that used the website and gave comments about the UX.
 
 
 
@@ -142,7 +137,7 @@ To deploy your own version of the website:
 - Open your chosen IDE (Cloud9, VS Code, Gitpod etc.)
 - Open a terminal in your root directory
 - Type 'git clone ' followed by the code taken from github repository
-    - ```git clone https://github.com/Natte-Z/amazon.git```
+    - ```git clone (https://github.com/Natte-Z/amazon.git)```
 - When this completes you have your own version of the website
     - Feel free to make any changes to it
 - The website can be run by opening one of the HTML files within a web browser
@@ -161,8 +156,8 @@ The text on the website has been copied and further edited from:
 
 ### Media
 The images for the website are taken from:
-- [Unsplash] (https://unsplash.com/)
-- [Pexels] (https://www.pexels.com/)
+- (https://unsplash.com/)
+- (https://www.pexels.com/)
 - Nathalie Zauels (photographer for the salong) 
 
 ### Acknowledgements

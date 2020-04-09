@@ -1,435 +1,405 @@
-/* TEST */
-
-.wrapper-img {
-    width: 100%;
-    padding-top: 100%;
-    z-index: 1;
-
-}
 /*--------------------------------------------Colour*/
+
 .bg-color-name-title {
-    background-color: #fafafa;
+	background-color: #fafafa;
 }
 .header {
-    background-color: #fafafa;
+	background-color: #fafafa;
 }
 .contact {
-    background-color: #bd8c7d;
+	background-color: #bd8c7d;
 }
 .openingtimes {
-    background-color: #d1bfa7;
+	background-color: #d1bfa7;
 }
 .book {
-    background-color: #8e8e90;
+	background-color: #8e8e90;
 }
 .socialIconsFooter {
-    background-color: #49494b;
+	background-color: #49494b;
 }
-
 /*---------------------------------------------------------------------Fonts*/
 
 @import url('https://fonts.googleapis.com/css2?family=Lora&family=Montserrat:wght@200&display=swap');
 
 /*--------------------------------------------Header*/
+
 header {
-    margin: 0;
+	margin: 0;
 }
 .logo {
-    background: url("../images/logo.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 25%;
-    margin: 0;
-    padding: 0;
-    width: 27px;
-    min-height: 65px;
-    background-color: #fafafa;
+	background: url("../images/logo.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 25%;
+	margin: 0;
+	padding: 0;
+	width: 27px;
+	min-height: 65px;
+	background-color: #fafafa;
 }
 .title {
-    font-family: 'Montserrat', sans-serif;
-    color: #49494B;
-    margin: auto;
-    height: auto;
-    text-align: center;
-    width: auto;
-    padding-top: 15px;
-    font-size: 15px;
+	font-family: 'Montserrat', sans-serif;
+	color: #49494B;
+	margin: auto;
+	height: auto;
+	text-align: center;
+	width: auto;
+	padding-top: 15px;
+	font-size: 15px;
 }
 .nav-item {
-    font-family:'Lora', sans-serif;
-    font-size: 15px;
-    padding: 0px;
-    margin-top: 10px;
-    color: #49494B;
-    background-color: #fafafa;
+	font-family: 'Lora', sans-serif;
+	font-size: 15px;
+	padding: 0px;
+	margin-top: 10px;
+	color: #49494B;
+	background-color: #fafafa;
 }
-.navbar-nav{
-    margin: auto;
+.navbar-nav {
+	margin: auto;
 }
-
 .socialIconsHeader {
-    height: 25px;
-    padding-right: 20px;
+	height: 25px;
+	padding-right: 20px;
 }
 .socialIconsHeader i {
-    text-align: center;
-    width: 30px;
-    font-size: 20px;
-    color: #49494B;
+	text-align: center;
+	width: 30px;
+	font-size: 20px;
+	color: #49494B;
 }
-.socialIconsHeader :hover {
-    color: #bd8c7d;
+.socialIconsHeader i:hover {
+	color: #bd8c7d;
 }
 /*---------------------------------------------------------------------------StartPage*/
+
 .carouselExampleIndicators {
-    padding-top: 0px;
+	padding-top: 0px;
 }
 .introduction {
-    margin: 30px auto;
-    font-family: "Montserrat", sans-serif;
-    text-align: center;
+	margin: 30px auto;
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
 }
-.startImageHolder{
-    height: auto;
-    padding: 80px;
-    display: flex;
-    justify-content: space-between;
+.startImageHolder {
+	height: auto;
+	padding: 80px;
+	display: flex;
+	justify-content: space-between;
 }
 .startimage {
-    height: 250px;
-    width: 70%;
-    margin: auto;
-    margin-bottom: 40px;
-
+	height: 250px;
+	width: 70%;
+	margin: auto;
+	margin-bottom: 40px;
 }
-.contactPicture{
-    background-image: url("../images/kontakt.jpg");
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center;
-    vertical-align: top;
-    text-align: center;
-    height: 100%;
-    width: 100%;
+.contactPicture {
+	background-image: url("../images/kontakt.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	vertical-align: top;
+	text-align: center;
+	height: 100%;
+	width: 100%;
 }
-.prislistaPicture{
-    background-image: url("../images/prislista.jpg");
-    background-size: cover; 
-    background-repeat: no-repeat;
-    background-position: center;
-    vertical-align: top;
-    text-align: center;
-    height: 100%;
-    width: 100%;
+.prislistaPicture {
+	background-image: url("../images/prislista.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	vertical-align: top;
+	text-align: center;
+	height: 100%;
+	width: 100%;
 }
 .caption {
-    display: block;
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 20px;
-    height: auto;
+	display: block;
+	font-family: "Montserrat", sans-serif;
+	color: #49494B;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 20px;
+	height: auto;
 }
 .hrStart {
-    width: 70%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 50px;
+	width: 70%;
+	display: flex;
+	justify-content: center;
+	margin: 5%;
 }
 /*--------------------------------------------------------------------------TreatmentsPage*/
 
 #treatment {
-    width: auto;
-    color: #fafafa;
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
+	width: auto;
+	color: #fafafa;
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
 }
 #treatment h1 {
-    font-family: "lora", sans-serif;
-    color: #49494b;
-    font-weight: bold;
+	font-family: "lora", sans-serif;
+	color: #49494b;
+	font-weight: bold;
 }
-/*--------------------------------------------Feet Rosa Part*/
-.footHolder {
-    padding-top: 60px;
+.wrapper-img {
+	width: 100%;
+	padding-top: 100%;
+	z-index: 1;
 }
-.foot {
-    background-color: #BD8C7D;
-    width: 100%;
-    height: auto;
-    text-align: center;
-    color: #49494b;
-    letter-spacing: 1px;
-}
-.nails {
-    height: inherit;
-    width: 100px;
-    background-color: #BD8C7D;
-}
-.nailsImage{
-    background-image: url("../images/naglar.jpg");
-    background-size: cover; 
-    background-repeat: no-repeat;
-    height: 100%;
-    background-color: #49494b;
-    background-position: center;
-}
-/*--------------------------------------------Coloring Sand Part*/
-.coloringHolder{
-    display: flex;
-    flex-direction: row-reverse;
-    padding-top: 60px;
-}
-.coloring {
-    background-color: #D1BFA7;
-    width: 100%;
-    text-align: center;
-    color: #49494b;
-}
-.coloringFlower {
-    height: inherit;
-    background-color: #D1BFA7;
-    width: 100px; 
-}
-.coloringFlowerImage{
-    background-image: url("../images/coloring.jpg");
-    background-size: cover; 
-    background-repeat: no-repeat;
-    height: 100%;
-    background-color: #49494b;
-    background-position: center;
-
-}
-/*--------------------------------------------Facial Grey Part*/
-.facialHolder{
-    padding-top: 60px;
-}
-.facial {
-    background-color: #908C8C;
-    width: 100%;
-    text-align: center;
-    color: #49494b;
-
-}
-.facialAmazon{
-    height: inherit;
-    background-color: #908C8C;
-    width: 100px; 
-    
-}
-.facialAmazonImage{
-    background-image: url("../images/facialamazon.jpg");
-    background-size: cover; 
-    background-repeat: no-repeat;
-    height: 100%;
-    background-color: #49494b;
-    background-position: center;
-}
-.hrfacial {
-    width: 80%;
-    padding-top: 5px;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-}
-.hrcoloring {
-    width: 30%;
-    padding-top: 5px;
-    color: #fafafa;
-    display: flex;
-    justify-content: center;
-}
-
-
-.hrTreatments{
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 100px;
-}
-
-/*---------------------------------------------------------------------AboutUsPage*/
-/*--------------------------------------------PictureRow*/
-
-.portraitPictureHolder{
-    height: 100%;
-    padding: 80px;
-    background-color: #908C8C;
-    display: flex;
-    justify-content: space-between;
-}
-.portraitPicture {
-    height: 300px;
-    width: 90%;
-}
-.portraitPictureOne {
-    background-repeat: no-repeat;
-    background-position: left;
-    vertical-align: top;
-    text-align: center;
-    width: 100%;
-    border-radius: 8px;
-    background-image: url("../images/mia.jpg");
-    background-size: cover; 
-    background-repeat: no-repeat;
-    height: inherit;
-    background-color: #49494b;
-
-}
-.portraitPictureTwo{
-    background-repeat: no-repeat;
-    background-position: center;
-    vertical-align: top;
-    text-align: center;
-    width: 100%;
-    border-radius: 8px;
-    background-image: url("../images/karin.jpg");
-    background-size: cover; 
-    background-repeat: no-repeat;
-    height: inherit;
-    background-color: #49494b;
-
-}
-.portraitPictureThree{
-    background-repeat: no-repeat;
-    background-position: center;
-    vertical-align: top;
-    text-align: center;
-    width: 100%;
-    border-radius: 8px;
-    background-image: url("../images/annette.jpg");
-    background-size: cover; 
-    background-repeat: no-repeat;
-    height: inherit;
-    background-color: #49494b;
-}
-/*--------------------------------------------CaptionRow*/
-.portraitCaption {
-    font-family: 'Montserrat', sans-serif;
-    text-align: center;
-}
-.portraitCaption h3 {
-    font-family: 'Lora', sans-serif;
-}
-.hrPortrait{
-    width: 80%;
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
-}
-/*--------------------------------------------Map*/
-
-
-#map {
-    width:100%;
-    height:300px;
-    margin: 100px 0 100px 0;  
+	/*--------------------------------------------Feet Rosa Part*/
+	.footHolder {
+		padding-top: 60px;
+	}
+	.foot {
+		background-color: #BD8C7D;
+		width: 100%;
+		height: auto;
+		text-align: center;
+		color: #49494b;
+		letter-spacing: 1px;
+	}
+	.nails {
+		height: inherit;
+		width: 100px;
+		background-color: #BD8C7D;
+	}
+	.nailsImage {
+		background-image: url("../images/naglar.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100%;
+		background-color: #49494b;
+		background-position: center;
+	}
+	/*--------------------------------------------Coloring Sand Part*/
+	.coloringHolder {
+		display: flex;
+		flex-direction: row-reverse;
+		padding-top: 60px;
+	}
+	.coloring {
+		background-color: #D1BFA7;
+		width: 100%;
+		text-align: center;
+		color: #49494b;
+	}
+	.coloringFlower {
+		height: inherit;
+		background-color: #D1BFA7;
+		width: 100px;
+	}
+	.coloringFlowerImage {
+		background-image: url("../images/coloring.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100%;
+		background-color: #49494b;
+		background-position: center;
+	}
+	/*--------------------------------------------Facial Grey Part*/
+	.facialHolder {
+		padding-top: 60px;
+	}
+	.facial {
+		background-color: #908C8C;
+		width: 100%;
+		text-align: center;
+		color: #49494b;
+	}
+	.facialAmazon {
+		height: inherit;
+		background-color: #908C8C;
+		width: 100px;
+	}
+	.facialAmazonImage {
+		background-image: url("../images/facialamazon.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: 100%;
+		background-color: #49494b;
+		background-position: center;
+	}
+	.hrfacial {
+		width: 80%;
+		padding-top: 5px;
+		color: #fafafa;
+		display: flex;
+		justify-content: center;
+	}
+	.hrcoloring {
+		width: 30%;
+		padding-top: 5px;
+		color: #fafafa;
+		display: flex;
+		justify-content: center;
+	}
+	.hrTreatments {
+		width: 80%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		margin: 10%;
+	}
+	/*---------------------------------------------------------------------AboutUsPage*/
+	/*--------------------------------------------PictureRow*/
+	.portraitPictureHolder {
+		height: 100%;
+		padding: 80px;
+		background-color: #908C8C;
+		display: flex;
+		justify-content: space-between;
+	}
+	.portraitPicture {
+		height: 300px;
+		width: 90%;
+	}
+	.portraitPictureOne {
+		background-repeat: no-repeat;
+		background-position: left;
+		vertical-align: top;
+		text-align: center;
+		width: 100%;
+		border-radius: 8px;
+		background-image: url("../images/mia.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-color: #49494b;
+	}
+	.portraitPictureTwo {
+		background-repeat: no-repeat;
+		background-position: center;
+		vertical-align: top;
+		text-align: center;
+		width: 100%;
+		border-radius: 8px;
+		background-image: url("../images/karin.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-color: #49494b;
+	}
+	.portraitPictureThree {
+		background-repeat: no-repeat;
+		background-position: center;
+		vertical-align: top;
+		text-align: center;
+		width: 100%;
+		border-radius: 8px;
+		background-image: url("../images/annette.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+		height: inherit;
+		background-color: #49494b;
+	}
+	/*--------------------------------------------CaptionRow*/
+	.portraitCaption {
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+	}
+	.portraitCaption h3 {
+		font-family: 'Lora', sans-serif;
+	}
+	.hrPortrait {
+		width: 80%;
+		margin-top: 7%;
+		display: flex;
+		justify-content: center;
+	}
+	/*--------------------------------------------Map*/
+	#map {
+		width: 100%;
+		height: 300px;
+		margin: 100px 0 100px 0;
+	}
+	/*--------------------------------------------MediaPage*/
+	#photo {
+		height: 100%;
+		width: 100%;
+		margin: 20px;
+	}
+	#photo img {
+		width: 100%;
+		height: inherit;
+	}
+    .MediaWrapper {
+        margin-top: 2%;
     }
-
-/*--------------------------------------------MediaPage*/
- 
-#photo {
-    clear: both;
-    line-height: 0;
-    column-count: 3;
-    column-gap: 0px;
-    height: 100%;
-    width: 100%;
-    
-}
-#photo img {
-    width: 100%;
-    height: inherit;
-}
-@media screen and (max-width: 768px){
-    #photo{
-        column-count: 2;
-    }
-
-
-.youtube {
-    padding: 50px;
-    height: 450px;
-    
-}
-.youtubeiframe {
-    width: 100%;
-}
-
-.hrMedia {
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 100px;
-}
-
-}
-
-
-
-/*--------------------------------------------Footer*/
-.footer {
-    overflow: hidden;
-    font-family: "Lora", sans-serif;
-    text-shadow: 1px 1px 1px #49494b;
-    flex-shrink: 0;
-    color: #fafafa;
-    text-align: center;
-    font-size: 20px;
-    width: 100%;
-    height: 150px;
-    display: flex;
-    align-items: stretch;
-    letter-spacing: 1px;
-    }
-.footer h6{
-    font-size: 10px;
-    }
-.contact {
-    padding: 20px 10px 10px 10px;
-    border: 10px;
-    border-color: #fafafa;
-    height: 150px;
-}
-.openingtimes {
-    padding: 20px 10px 10px 10px;
-    height: 150px;
-}
-.book {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 150px;
-}
-.bookButton {
-    border-radius: 50px;
-    font-size: 15px;
-    padding: 17px;
-    background-color: #49494b;
-    color: #fafafa;
-}
-.bookButton:hover {
-    background-color: #bd8c7d;
-    color: #49494b;
-}
-.socialIconsFooter {
-    height: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.socialIconsFooter i {
-    text-align: center;
-    text-shadow: 1px 1px 1px #49494b;
-    color: #fafafa;
-    width: 50px;
-    font-size: 35px;
-}
-.socialIconsFooter i:hover {
-    background-color:#bd8c7d;
-    color: #fafafa;
-}
-
+	
+		.youtube {
+			padding: 50px;
+			height: 450px;
+		}
+		.youtubeiframe {
+			width: 100%;
+		}
+		.hrMedia {
+			width: 80%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			margin: 10%;
+		}
+		/*--------------------------------------------Footer*/
+		#footer {
+			overflow: hidden;
+			font-family: "Lora", sans-serif;
+			text-shadow: 1px 1px 1px #49494b;
+			flex-shrink: 0;
+			color: #fafafa;
+			text-align: center;
+			font-size: 20px;
+			width: 100%;
+			display: flex;
+			align-items: stretch;
+            justify-content: flex-end;
+			letter-spacing: 1px;
+		}
+		#footer h6 {
+			font-size: 10px;
+		}
+		.contact {
+			padding: 20px 10px 10px 10px;
+			border: 10px;
+			border-color: #fafafa;
+			height: 150px;
+		}
+		.openingtimes {
+			padding: 20px 10px 10px 10px;
+			height: 150px;
+		}
+		.book {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			height: 150px;
+		}
+		.bookButton {
+			border-radius: 50px;
+			font-size: 15px;
+			padding: 17px;
+			background-color: #49494b;
+			color: #fafafa;
+		}
+		.bookButton:hover {
+			background-color: #bd8c7d;
+			color: #49494b;
+		}
+		.socialIconsFooter {
+			height: 150px;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+		.socialIconsFooter i {
+			text-align: center;
+			text-shadow: 1px 1px 1px #49494b;
+			color: #fafafa;
+			width: 50px;
+			font-size: 35px;
+		}
+		.socialIconsFooter i:hover {
+			background-color: #bd8c7d;
+			color: #fafafa;
+        }
