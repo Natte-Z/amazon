@@ -12,13 +12,13 @@ Onyx: #49494b
 .header {
     background-color: #fafafa;
 }
-.kontakt {
+.contact {
     background-color: #bd8c7d;
 }
 .openingtimes {
     background-color: #d1bfa7;
 }
-.bokatid {
+.book {
     background-color: #8e8e90;
 }
 .socialIconsFooter {
@@ -86,36 +86,42 @@ header {
 .carouselExampleIndicators {
     padding-top: 0px;
 }
-
 .introduction {
     margin: 30px auto;
     font-family: "Montserrat", sans-serif;
     font-weight: 200px;
     text-align: center;
 }
-
-
 .startImageHolder{
     height: auto;
     padding: 80px;
+    display: flex;
+    justify-content: space-between;
 }
-
 .startimage {
     height: 250px;
     width: 70%;
     margin: auto;
+    margin-bottom: 40px;
+
 }
 .kontaktPicture{
+    background-image: url("../images/kontakt.jpg");
+    background-size: cover; 
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
     vertical-align: top;
     text-align: center;
     height: 100%;
     width: 100%;
 }
 .prislistaPicture{
+    background-image: url("../images/prislista.jpg");
+    background-size: cover; 
     background-repeat: no-repeat;
-    background-position: right;
+    background-position: center;
+    vertical-align: top;
+    text-align: center;
     height: 100%;
     width: 100%;
 }
@@ -125,31 +131,32 @@ header {
     text-transform: uppercase;
     text-align: center;
     font-size: 20px;
+    height: auto;
 }
 .hrStart {
-    width: 700px;
-    margin-left: 350px;
-    padding: 0;
-
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px;
 }
-
 /*--------------------------------------------------------------------------TreatmentsPage*/
 
-#behandlingar {
+#treatment {
     width: auto;
     color: #fafafa;
     font-family: 'Montserrat', sans-serif;
     margin: 0;
 }
-#behandlingar h1 {
+#treatment h1 {
     font-family: "lora", sans-serif;
     color: #49494b;
+    font-weight: bold;
 }
 /*--------------------------------------------Rosa Part*/
-.footerHolder {
+.footHolder {
     padding-top: 60px;
 }
-
 .foot {
     background-color: #BD8C7D;
     width: 100%;
@@ -157,42 +164,42 @@ header {
     text-align: center;
     color: #49494b;
     letter-spacing: 1px;
-
 }
 .nails {
-    height: 100%;
-    margin: auto;
-    width: 100%;
+    height: 454px;
+    width: 100px;
+    background-color: #BD8C7D;
 }
 .nailsImage{
-    height: 408px;
-    width: 100%;
-
+    background-image: url("../images/naglar.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100%;
+    background-color: #49494b;
 }
 /*--------------------------------------------Sand Part*/
-
 .coloringHolder{
     display: flex;
     flex-direction: row-reverse;
     padding-top: 60px;
-
 }
 .coloring {
     background-color: #D1BFA7;
-    text-align: right;
     width: 100%;
     text-align: center;
-
+    color: #49494b;
 }
 .coloringFlower {
-    height: 100%;
-    margin: auto;
-    width: 100%;
-    
+    height: 474px;
+    background-color: #D1BFA7;
+    width: 100px; 
 }
 .coloringFlowerImage{
-    height: 400px;
-    width: 100%;
+    background-image: url("../images/coloring.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100%;
+    background-color: #49494b;
 }
 /*--------------------------------------------Grey Part*/
 .facialHolder{
@@ -202,29 +209,44 @@ header {
     background-color: #908C8C;
     width: 100%;
     text-align: center;
+    color: #49494b;
 
 }
 .facialAmazon{
-    height: 100%;
-    margin: auto;
-    width: 100%;
+    height: 478px;
+    background-color: #908C8C;
+    width: 100px; 
 }
 .facialAmazonImage{
-    height: 432px;
-    width: 100%;
+    background-image: url("../images/facialamazon.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100%;
+    background-color: #49494b;
+}
+.hrfacial {
+    width: 80%;
+    padding-top: 5px;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+}
+.hrcoloring {
+    width: 30%;
+    padding-top: 5px;
+    color: #fafafa;
+    display: flex;
+    justify-content: center;
+}
+
 
 .hrTreatments{
     width: 80%;
-    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
 }
-/*----------------------------------Carousel-Treatments
-
-
-.treatmentimages {
-    height: 100%;
-    width: 100%;
-}
-*/
 
 /*---------------------------------------------------------------------AboutUsPage*/
 /*--------------------------------------------PictureRow*/
@@ -245,27 +267,41 @@ header {
     background-position: left;
     vertical-align: top;
     text-align: center;
-    height: 100%;
     width: 100%;
     border-radius: 8px;
+    background-image: url("../images/mia.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100%;
+    background-color: #49494b;
+
 }
 .portraitPictureTwo{
     background-repeat: no-repeat;
     background-position: center;
     vertical-align: top;
     text-align: center;
-    height: 100%;
     width: 100%;
     border-radius: 8px;
+    background-image: url("../images/karin.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100%;
+    background-color: #49494b;
+
 }
 .portraitPictureThree{
     background-repeat: no-repeat;
     background-position: right;
     vertical-align: top;
     text-align: center;
-    height: 100%;
     width: 100%;
     border-radius: 8px;
+    background-image: url("../images/annette.jpg");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 100%;
+    background-color: #49494b;
 }
 /*--------------------------------------------CaptionRow*/
 .portraitCaption {
@@ -279,6 +315,8 @@ header {
 .hrPortrait{
     width: 80%;
     margin-top: 100px;
+    display: flex;
+    justify-content: center;
 }
 /*--------------------------------------------Map*/
 
@@ -290,15 +328,41 @@ header {
     }
 
 /*--------------------------------------------MediaPage*/
-
-.youtube {
-    margin-left: 300px;
-    padding: 50px;
-
+ 
+#photo {
+    clear: both;
+    line-height: 0;
+    column-count: 3;
+    column-gap: 0px;
+}
+#photo img {
+    width: 100%;
 }
 
+.youtube {
+    padding: 50px;
+}
+.youtubeiframe {
+    width: 100%;
+}
+
+.hrMedia {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px;
+}
+@media screen and (max-width: 768px){
+    #photo{
+        column-count: 2;
+    }
+}
+
+
+
 /*--------------------------------------------Footer*/
-#tider {
+.footer {
     overflow: hidden;
     font-family: "Lora", sans-serif;
     text-shadow: 1px 1px 1px #49494b;
@@ -307,38 +371,46 @@ header {
     text-align: center;
     font-size: 20px;
     width: 100%;
+    height: 150px;
+    display: flex;
+    align-items: stretch;
+    letter-spacing: 1px;
     }
-#tider h6{
+.footer h6{
     font-size: 10px;
     }
-.kontakt {
+.contact {
     padding: 20px 10px 10px 10px;
     border: 10px;
     border-color: #fafafa;
+    height: 150px;
 }
 .openingtimes {
     padding: 20px 10px 10px 10px;
     height: 150px;
 }
-
-.bokatidButton {
-    transition-duration: 0.4s;
+.book {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+}
+.bookButton {
     border-radius: 50px;
     font-size: 15px;
-    display: flex;
-    margin-top: 45px;
     padding: 17px;
     background-color: #49494b;
     color: #fafafa;
 }
-.bokatidButton:hover {
+.bookButton:hover {
     background-color: #bd8c7d;
     color: #49494b;
 }
-
 .socialIconsFooter {
-    padding: 45px;
     height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .socialIconsFooter i {
     text-align: center;
@@ -347,8 +419,8 @@ header {
     width: 50px;
     font-size: 35px;
 }
-.socialIconsFooter:hover {
-    background-color: #49494b;
-    color: #bd8c7d;
+.socialIconsFooter i:hover {
+    background-color:#bd8c7d;
+    color: #fafafa;
 }
 
