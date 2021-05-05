@@ -1,3 +1,48 @@
+html, 
+body {
+    height:100%;
+    width: 100%;
+    margin: 0;
+}
+
+/*---------------------------------------------------------------------Back to top button*/
+#scrollTopButton {
+  display: inline-block;
+  background-color: #bd8c7d;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 80px;
+  right: 30px;
+  transition: background-color .3s, 
+    opacity .5s, visibility .5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#scrollTopButton::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #f6f5f3;
+}
+#scrollTopButton:hover {
+  cursor: pointer;
+  background-color: #d1bfa7;
+}
+#scrollTopButton:active {
+  background-color: #d1bfa7;
+}
+#scrollTopButton.show {
+  opacity: 1;
+  visibility: visible;
+}
+
 /*--------------------------------------------Colour*/
 
 .bg-color-name-title {
@@ -382,16 +427,18 @@ a:hover {
 		margin: 10%;
 	}
 	/*--------------------------------------------Footer*/
-	#footer {
+	.footer-wrapper {
 		overflow: hidden;
 		font-family: "Lora", sans-serif;
 		text-shadow: 1px 1px 1px #49494b;
 		color: #fafafa;
 		text-align: center;
-		font-size: 15px;
-        width: 100%;
+        font-size: 15px;
+        position: static;
         height: 150px;
-	}
+        width: 100%;
+    }
+
 	.contact {
 		background-color: #bd8c7d;
 		border: 10px;
@@ -399,7 +446,7 @@ a:hover {
         margin-bottom: none !important;
     }
     .openingtimes {
-	    background-color: #d1bfa7;
+        background-color: #d1bfa7;
     }
 	.book {
 		display: flex;
