@@ -136,8 +136,40 @@ a:hover {
 /*---------------------------------------------------------------------------StartPage*/
 
 .carouselExampleIndicators {
-	padding-top: 0px;
+    padding-top: 0px;
 }
+
+/* Carousel*/
+    .carousel,
+    .carousel-item,
+    .carousel-item.active {
+      height: 100%;
+    }
+    .carousel-inner {
+      height: 100%;
+    }
+.carousel-item:nth-child(1) {
+      background-image: url("../images/title-image.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    .carousel-item:nth-child(2) {
+      background-image: url("../images/waitingarea.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    .carousel-item:nth-child(3) {
+      background-image: url("../images/roomone.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+    .carousel_height {
+        height: 550px;
+    }
+
 .introduction {
 	margin: 30px auto;
 	font-family: "Montserrat", sans-serif;
@@ -399,7 +431,7 @@ a:hover {
 		height: 300px;
 		margin: 100px 0 100px 0;
 	}
-	/*--------------------------------------------MediaPage*/
+	/*--------------------------------------------MediaPage
 	#photo {
 		height: 100%;
 		width: 100%;
@@ -418,7 +450,7 @@ a:hover {
     }
 	.youtubeiframe {
 	    width: 100%;
-	}
+	} */
 	.hrMedia {
 		width: 80%;
 		display: flex;
