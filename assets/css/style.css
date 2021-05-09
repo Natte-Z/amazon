@@ -71,10 +71,6 @@ body {
 	background-color: #8e8e90;
 }
 
-.socialIconsFooter {
-	background-color: #49494b;
-}
-
 
 /*---------------------------------------------------------------------Fonts*/
 
@@ -541,21 +537,14 @@ a:hover {
 }
 
 .contact {
-	background-color: #bd8c7d;
-	border: 10px;
+	/* border: 10px; */
 	border-color: #fafafa;
-    /* margin-bottom: none !important; */
-}
-
-.openingtimes {
-	background-color: #d1bfa7;
 }
 
 .book {
 	display: flex;
 	justify-content: center;
     align-items: center;
-    background-color: #d1bfa7;
 }
 
 .bookButtonFooter {
@@ -563,27 +552,21 @@ a:hover {
     padding: 20px !important;
     margin: 10px;
 	font-weight: bold;
-	background-color: #908C8C;
-	color: #fafafa;
-}
-
-.bookButtonFooter:hover {
 	background-color: #49494b;
 	color: #fafafa;
 }
 
-.socialIconsFooter {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.bookButtonFooter:hover {
+	background-color: #D1BFA7;
+	color: rgb(250, 250, 250);
 }
 
 .socialIconsFooter i {
 	text-align: center;
-	text-shadow: 1px 1px 1px #49494b;
-	color: #fafafa;
+	color: #49494b;
 	width: 50px;
-	font-size: 35px;
+    font-size: 35px;
+    
 }
 
 .socialIconsFooter i:hover {
