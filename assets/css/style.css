@@ -2,7 +2,8 @@ html,
 body {
 	height: 100%;
 	width: 100%;
-	margin: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 
@@ -172,24 +173,17 @@ a:hover {
 }
 
 .carousel-item:nth-child(1) {
-	background-image: url("../images/title-image.jpg");
+	background-image: url("../images/fonsterUte.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
 }
 
 .carousel-item:nth-child(2) {
-	background-image: url("../images/waitingarea.jpg");
+	background-image: url("../images/entre.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position: center center;
-}
-
-.carousel-item:nth-child(3) {
-	background-image: url("../images/roomone.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-position: center center;
+    background-position: left center;
 }
 
 .carousel_height {
@@ -398,7 +392,7 @@ a:hover {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	margin: 60px;
+	margin: 40px;
 }
 
 
@@ -536,11 +530,6 @@ a:hover {
     padding-bottom: 5px;
 }
 
-.contact {
-	/* border: 10px; */
-	border-color: #fafafa;
-}
-
 .book {
 	display: flex;
 	justify-content: center;
@@ -566,9 +555,7 @@ a:hover {
 	color: #49494b;
 	width: 50px;
     font-size: 35px;
-    
 }
-
 .socialIconsFooter i:hover {
 	color: #bd8c7d;
 }
