@@ -173,7 +173,7 @@ a:hover {
 }
 
 .carousel-item:nth-child(1) {
-	background-image: url("../images/fonsterUte.jpg");
+	background-image: url("../images/amazon_disk.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center center;
@@ -467,6 +467,20 @@ a:hover {
 	width: 100%;
 	border-radius: 8px;
 	background-image: url("../images/anette_profilbild.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: inherit;
+	background-color: #908C8C;
+}
+
+.portraitPictureFour {
+	background-repeat: no-repeat;
+	background-position: center;
+	vertical-align: top;
+	text-align: center;
+	width: 100%;
+	border-radius: 8px;
+	background-image: url("../images/mia_m_profilbild.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: inherit;
