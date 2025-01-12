@@ -211,7 +211,7 @@ a:hover {
 }
 
 .omOssBild {
-	background-image: url("../images/gruppbild.jpg");
+	background-image: url("../images/gruppbild.jpeg");
 	background-repeat: no-repeat;
 	background-position: center;
 	vertical-align: middle;
@@ -452,7 +452,7 @@ a:hover {
 	text-align: center;
 	width: 100%;
 	border-radius: 8px;
-	background-image: url("../images/karin_profilbild.jpg");
+	background-image: url("../images/anette_profilbild.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: inherit;
@@ -466,7 +466,7 @@ a:hover {
 	text-align: center;
 	width: 100%;
 	border-radius: 8px;
-	background-image: url("../images/anette_profilbild.jpg");
+	background-image: url("../images/mia_m_profilbild.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: inherit;
@@ -480,7 +480,7 @@ a:hover {
 	text-align: center;
 	width: 100%;
 	border-radius: 8px;
-	background-image: url("../images/mia_m_profilbild.jpg");
+	background-image: url("../images/Frida_profilbild.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	height: inherit;
